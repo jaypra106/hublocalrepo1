@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<link rel="preload" as="font" type="font/woff2" href='https://www.techiedelight.com/wp-content/themes/nevertheless/assets/css/fonts/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvKsOdC_.woff2' crossorigin="anonymous">
+<link rel="preload" as="font" type="font/woff2" href='https://www.techiedelight.com/wp-content/themes/nevertheless/assets/css/fonts/S6u9w4BMUTPHh6UVSwiPGQ.woff2' crossorigin="anonymous">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin="anonymous">
+<style>
+@font-face{
+	font-family:'Exo 2';
+	font-style:normal;
+	font-weight:400;
+	font-display:swap;
+	src:url('https://www.techiedelight.com/wp-content/themes/nevertheless/assets/css/fonts/7cH1v4okm5zmbvwkAx_sfcEuiD8jvvKsOdC_.woff2') format('woff2');
+	unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face{
+	font-family:'Lato';
+	font-style:normal;
+	font-weight:700;
+	font-display:swap;
+	src:url('https://www.techiedelight.com/wp-content/themes/nevertheless/assets/css/fonts/S6u9w4BMUTPHh6UVSwiPGQ.woff2') format('woff2');
+	unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+blockquote{font-size:17px!important;line-height:1em!important}a code{color:inherit}.entry-summary,.entry-taxonomies,.post-navigation,.entry-content p,.entry-content li,.lpad30,#comments p,#subscribe-text,#eu-cookie-law{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Helvetica,Arial,sans-serif}
+
+.entry-title,.bg{font-family:'Lato','Trebuchet MS',sans-serif}.widget-title{font-family:'Vollkorn',serif;letter-spacing:.6px}.entry-content,.content,.widget,.dropdown-content{font-family:'Exo 2','Lato',sans-serif}
+
+#branding{padding:9px 14px!important}#header{padding:0 15px!important}#site-title{font-size:28px!important}.site-description,#menu-primary{display:none!important}@media screen and (max-width:1200px){.dropdown{display:none}}@media screen and (max-width:800px){.header-nav-new{display:none}.search-form{display:none}.header-nav{margin-bottom:0px!important}.site-description,#menu-primary{display:block!important}#header{padding:10px 15px!important}#branding{padding:15px 15px!important}}@media screen and (max-width:1047px){.search-form{display:none}.header-nav-new{padding:6px 0px!important;margin-right:0px!important}}#header,.navigation{word-break:normal;max-width:100%}body.custom-background{background-color:#f7f9fa!important}.header-nav,#container>.wrap{border:1px solid #fff!important}.header-nav-new{font-family:'Open Sans','Trebuchet MS',sans-serif;overflow:hidden;padding:6px 12px;float:right;margin-right:50px}.header-nav-new a{float:left;color:rgba(41,41,41,1)!important;text-align:center;padding:8px 18px;text-decoration:none;line-height:25px;border-radius:4px;letter-spacing:.1px}.header-nav-new a:hover,.header-nav-new a:focus{color:#069!important;text-decoration:none}@media screen and (max-width:500px){.header-nav-new a{float:none;display:block;text-align:left}.header-right{float:none}}.theme-genericons-active .dropbtn:after{content:"\f431";font-family:"genericons";font-weight:900;position:relative;right:0;margin:0 5px}.header-nav-new .dropdown{float:left;overflow:hidden}.header-nav-new .dropdown .dropbtn{border:none;outline:none;margin:2px 0 0 0;background:#f7f9fa;color:#000;letter-spacing:0}.header-nav-new .dropdown-content{display:none;margin-top:0px;position:absolute;background-color:#f7f9fa;min-width:220px;border:1px solid #ddd;border-top:0px;box-shadow:0 8px 16px 0 rgb(0 0 0 / 10%);z-index:1}.dropdown-content a{float:none;color:#000!important;padding:6px 20px;text-decoration:none;display:block;text-align:left;font-size:16px}.header-nav-new .dropdown-content a:hover{background-color:#eee}.header-nav-new .dropdown:hover .dropdown-content{display:block}.header-nav-new .navbar a:hover,.dropdown:hover .dropbtn{color:#069}
+
+.gsc-search-box{display:none!important}.gsc-control-cse{padding:0!important}.search-toggle-active .header-nav-new{margin-right:229px!important}.menu-search .search-form{float:right;position:absolute;line-height:1.8em;top:8px;right:0}.menu-search .search-toggle{color:#000;background:transparent;display:block;width:47px;height:47px;float:right;padding:0;border:none}.menu-search .search-toggle:hover,.menu-search .search-toggle:focus{opacity:.8;border:none}.menu-search .search-toggle:after{font-size:30px;padding:8px;float:right;-webkit-font-smoothing:antialiased}.theme-genericons-active .menu-search .search-toggle:after{content:"\f400";font-family:"genericons"}.menu-search input{padding:5px;display:none;width:auto}.menu-search .search-field{background:#fff}.menu-search .search-submit{display:none;padding:0}.search-toggle-active.menu-search .search-form{width:290px}.search-toggle-active.menu-search .search-field{width:200px;margin:0;margin-top:4px;padding:2px 5px;border:1px solid #ccc}.search-toggle-active.menu-search input{display:inline}.search-toggle-active.menu-search .search-submit{display:inline;margin:7px 0 0;float:right;border:none;background:transparent}.search-toggle-active.menu-search .search-submit:hover,.search-toggle-active.menu-search .search-submit:focus{opacity:.8}.search-toggle-active.menu-search .search-submit:before{font-size:30px;padding:0;vertical-align:top;-webkit-font-smoothing:antialiased}.theme-genericons-active .search-toggle-active.menu-search .search-submit:before{content:"\f400";font-family:"genericons"}.search-toggle-active.menu-search .search-toggle:after{content:"\f335"}.theme-genericons-active .search-toggle-active.menu-search .search-toggle:after{content:"\f405"}.menu-toggle{display:none}.search-toggle-active.menu-search button{color:#000}
+
+.header-nav-new .dropbtn,.header-nav-new .header-nav-a{font-size:19px;font-family:'Exo 2','Trebuchet MS',sans-serif}.search-toggle-active .dropbtn{display:none}.search-toggle-active.menu-search .dropdown{width:142px}@media screen and (max-width:1200px){.search-toggle-active.menu-search .search-field{width:150px}.search-toggle-active.menu-search .search-form{width:240px}}
+sub{vertical-align:baseline;position:relative;top:.3em}
+
+.sup-nav{color:#dd7127;font-size:10px;font-weight:700;text-transform:uppercase;vertical-align:top;letter-spacing:.6px}.header-nav{font-family:'Exo 2','Trebuchet MS',sans-serif;word-break:normal;max-width:100%}@media screen and (min-width:980px){.header-nav{width:100%!important;z-index:1!important}}
+
+.header-nav {box-shadow: 0 1px 6px 0 rgb(32 33 36 / 20%) !important}
+</style>
+<link rel='dns-prefetch' href='https://cdn4.buysellads.net' />
+<link rel='dns-prefetch' href='https://srv.buysellads.com' />
+<link rel='dns-prefetch' href='https://securepubads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='https://googleads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='https://www.google-analytics.com' />
+<link rel='dns-prefetch' href='https://www.googletagservices.com' />
+<link rel='dns-prefetch' href='https://cse.google.com' />
+<link rel='dns-prefetch' href='https://ad.doubleclick.net' />
+<link rel='dns-prefetch' href='https://pagead2.googlesyndication.com' />
+<link rel='dns-prefetch' href='https://tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='https://s.amazon-adsystem.com' />
+<link rel='dns-prefetch' href='https://secure.adnxs.com' />
+<link rel="apple-touch-icon" href="https://secure.gravatar.com/avatar/32fd0e5c28d6dbbaa262f30f3a33c727?s=192" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<script type='text/javascript' async src='https://cdn4.buysellads.net/pub/techiedelight.js?ver=22.5.14' id='bsa_optimize-js'></script>
+<script type='text/javascript' async src='https://www.techiedelight.com/wp-content/themes/nevertheless/assets/js/monetization.js?ver=2.5' id='bsa_networks-js'></script>
+
+<link rel="manifest" href="/superpwa-manifest.json">
+<link rel="prefetch" href="/superpwa-manifest.json">
+<meta name="theme-color" content="#394851">
+
+<script type="text/javascript">
+/* <![CDATA[ */
+document.documentElement.className = document.documentElement.className.replace(new RegExp('(^|\\s)no-js(\\s|$)'), '$1js$2');
+/* ]]> */
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<title>Create a branch from a previous commit in Git | Techie Delight</title>
+<meta name="description" content="This post will discuss how to create a branch from some previous commit in Git... To create a branch from some previous commit, you can use the git-branch command." />
+<link rel="canonical" href="https://www.techiedelight.com/create-branch-from-previous-commit-git/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Create a branch from a previous commit in Git | Techie Delight" />
+<meta property="og:description" content="This post will discuss how to create a branch from some previous commit in Git... To create a branch from some previous commit, you can use the git-branch command." />
+<meta property="og:url" content="https://www.techiedelight.com/create-branch-from-previous-commit-git/" />
+<meta property="og:site_name" content="Techie Delight" />
+<meta property="article:publisher" content="https://www.facebook.com/techiedelight/" />
+<meta property="article:published_time" content="2016-11-16T22:53:35+00:00" />
+<meta property="article:modified_time" content="2021-05-03T21:19:38+00:00" />
+<meta property="og:image" content="https://www.techiedelight.com/wp-content/uploads/create-branch-with-git-branch.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@techie_delight" />
+<meta name="twitter:site" content="@techie_delight" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.techiedelight.com/#organization","name":"Techie Delight","url":"https://www.techiedelight.com/","sameAs":["https://www.facebook.com/techiedelight/","https://in.pinterest.com/techiedelight/","https://twitter.com/techie_delight"],"logo":{"@type":"ImageObject","@id":"https://www.techiedelight.com/#logo","inLanguage":"en-US","url":"https://www.techiedelight.com/wp-content/uploads/profile_pic.png","contentUrl":"https://www.techiedelight.com/wp-content/uploads/profile_pic.png","width":411,"height":360,"caption":"Techie Delight"},"image":{"@id":"https://www.techiedelight.com/#logo"}},{"@type":"WebSite","@id":"https://www.techiedelight.com/#website","url":"https://www.techiedelight.com/","name":"Techie Delight","description":"Ace your Coding Interview","publisher":{"@id":"https://www.techiedelight.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.techiedelight.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#primaryimage","inLanguage":"en-US","url":"https://www.techiedelight.com/wp-content/uploads/create-branch-with-git-branch.png","contentUrl":"https://www.techiedelight.com/wp-content/uploads/create-branch-with-git-branch.png","width":636,"height":677,"caption":"create a new branch with git branch"},{"@type":"WebPage","@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#webpage","url":"https://www.techiedelight.com/create-branch-from-previous-commit-git/","name":"Create a branch from a previous commit in Git | Techie Delight","isPartOf":{"@id":"https://www.techiedelight.com/#website"},"primaryImageOfPage":{"@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#primaryimage"},"datePublished":"2016-11-16T22:53:35+00:00","dateModified":"2021-05-03T21:19:38+00:00","description":"This post will discuss how to create a branch from some previous commit in Git... To create a branch from some previous commit, you can use the git-branch command.","breadcrumb":{"@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.techiedelight.com/create-branch-from-previous-commit-git/"]}]},{"@type":"BreadcrumbList","@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.techiedelight.com/"},{"@type":"ListItem","position":2,"name":"Git","item":"https://www.techiedelight.com/Category/Git/"},{"@type":"ListItem","position":3,"name":"Create a branch from a previous commit in Git"}]},{"@type":"Article","@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#article","isPartOf":{"@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#webpage"},"author":{"@id":"https://www.techiedelight.com/#/schema/person/67f768a62e6e60437d5f51aafe213826"},"headline":"Create a branch from a previous commit in Git","datePublished":"2016-11-16T22:53:35+00:00","dateModified":"2021-05-03T21:19:38+00:00","mainEntityOfPage":{"@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#webpage"},"wordCount":502,"commentCount":1,"publisher":{"@id":"https://www.techiedelight.com/#organization"},"image":{"@id":"https://www.techiedelight.com/create-branch-from-previous-commit-git/#primaryimage"},"thumbnailUrl":"https://www.techiedelight.com/wp-content/uploads/create-branch-with-git-branch.png","articleSection":["Git"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.techiedelight.com/create-branch-from-previous-commit-git/#respond"]}]},{"@type":"Person","@id":"https://www.techiedelight.com/#/schema/person/67f768a62e6e60437d5f51aafe213826","name":"Admin","image":{"@type":"ImageObject","@id":"https://www.techiedelight.com/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/32fd0e5c28d6dbbaa262f30f3a33c727?s=96&d=wavatar&r=g","contentUrl":"https://secure.gravatar.com/avatar/32fd0e5c28d6dbbaa262f30f3a33c727?s=96&d=wavatar&r=g","caption":"Admin"}}]}</script>
+
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//c0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Techie Delight &raquo; Feed" href="https://www.techiedelight.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Techie Delight &raquo; Comments Feed" href="https://www.techiedelight.com/comments/feed/" />
+<link rel="alternate" hreflang="ja" href="https://www.techiedelight.com/ja/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="de-DE" href="https://www.techiedelight.com/de/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="de" href="https://www.techiedelight.com/de/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="fr-FR" href="https://www.techiedelight.com/fr/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="fr" href="https://www.techiedelight.com/fr/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="es-ES" href="https://www.techiedelight.com/es/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="es" href="https://www.techiedelight.com/es/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="ko-KR" href="https://www.techiedelight.com/ko/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="ko" href="https://www.techiedelight.com/ko/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="it-IT" href="https://www.techiedelight.com/it/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="it" href="https://www.techiedelight.com/it/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="pt-BR" href="https://www.techiedelight.com/pt/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="pt" href="https://www.techiedelight.com/pt/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="zh-CN" href="https://www.techiedelight.com/zh/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="zh" href="https://www.techiedelight.com/zh/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="zh-TW" href="https://www.techiedelight.com/zh-tw/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="ru-RU" href="https://www.techiedelight.com/ru/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="ru" href="https://www.techiedelight.com/ru/create-branch-from-previous-commit-git/" />
+<link rel="alternate" type="application/rss+xml" title="Techie Delight &raquo; Create a branch from a previous commit in Git Comments Feed" href="https://www.techiedelight.com/create-branch-from-previous-commit-git/feed/" />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='nevertheless-style-minified-css' href='https://www.techiedelight.com/wp-content/themes/nevertheless/assets/css/style.css?ver=2.94' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://www.techiedelight.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.techiedelight.com/wp-json/wp/v2/posts/23812" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.techiedelight.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.techiedelight.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.9.3" />
+<link rel='shortlink' href='https://wp.me/p88NM0-6c4' />
+<link rel="alternate" type="application/json+oembed" href="https://www.techiedelight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.techiedelight.com%2Fcreate-branch-from-previous-commit-git%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.techiedelight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.techiedelight.com%2Fcreate-branch-from-previous-commit-git%2F&#038;format=xml" />
+<link rel="alternate" hreflang="en-US" href="https://www.techiedelight.com/create-branch-from-previous-commit-git/" />
+<link rel="alternate" hreflang="en" href="https://www.techiedelight.com/create-branch-from-previous-commit-git/" />
+<style type='text/css'>img#wpstats{display:none}</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #c0c0c0; }
+</style>
+<style id="tamatebako-custom-css" type="text/css">
+#ad_2413{display: none !important;}.io,.io2,.L70 a,font,.consolas,.io p,.io li,.responsive-tabs__list__item,.blue,.c-syntax,.c-font-consolas *{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace!important}code{font:1.035em SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace!important}pre{font:1em SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace!important}</style>
+</head>
+<body data-rsssl=1 class="post-template-default single single-post postid-23812 single-format-standard custom-background wordpress ltr parent-theme logged-out singular sidebar-primary-active menu-primary-active menu-social-links-active menu-footer-inactive wp-is-not-mobile translatepress-en_US theme-genericons-active layout-content-sidebar1 custom-fonts-active tf-font_site_title-alegreya tf-font_post_title-lato tf-font_widget_title-vollkorn tf-font_base-open-sans">
+<div class="header-nav">
+<header role="banner" id="header">
+<div id="branding">
+<p data-no-translation id="site-title" class="site-title"><a rel="home" href="https://www.techiedelight.com/">TECHIE DELIGHT <span style="font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace">&lt;/&gt;</span></a></p>
+<p id="site-description" class="site-description">Ace your Coding Interview</p>
+</div>
+<div class="menu-search" style="position: relative">
+<form class="search-form">
+<a href="#search-menu" class="search-toggle"></a>
+<input id="search-menu" type="search" class="search-field" placeholder="Search…">
+<button id="search-submit" class="search-submit"></button>
+</form>
+<div class="header-nav-new">
+<a class="header-nav-a" href="https://www.techiedelight.com/data-structures-and-algorithms-problems/" rel="noopener noreferrer">FAANG Interview Preparation</a>
+<a class="header-nav-a" href="https://techiedelight.com/practice/" rel="noopener noreferrer" target="_blank">Practice</a>
+<div class="dropdown">
+<button class="dropbtn">Data Structures and Algorithms</button>
+<div class="dropdown-content">
+<a href="https://www.techiedelight.com/Category/Array/">Array</a>
+<a href="https://www.techiedelight.com/Category/Trees/Binary-Tree/">Binary Tree</a>
+<a href="https://www.techiedelight.com/Category/Trees/BST/">Binary Search Tree</a>
+<a href="https://www.techiedelight.com/Category/Dynamic-Programming/">Dynamic Programming</a>
+<a href="https://www.techiedelight.com/Category/Divide-Conquer/">Divide and Conquer</a>
+<a href="https://www.techiedelight.com/Category/Backtracking/">Backtracking</a>
+<a href="https://www.techiedelight.com/Category/Linked-List/">Linked List</a>
+<a href="https://www.techiedelight.com/Category/Matrix/">Matrix</a>
+<a href="https://www.techiedelight.com/Category/Heap/">Heap</a>
+<a href="https://www.techiedelight.com/Category/Stack/">Stack</a>
+<a href="https://www.techiedelight.com/Category/Queue/">Queue</a>
+<a href="https://www.techiedelight.com/Category/String/">String</a>
+<a href="https://www.techiedelight.com/Category/Graphs/">Graph</a>
+<a href="https://www.techiedelight.com/Category/Sorting/">Sorting</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<nav role="navigation" class="menu" id="menu-primary">
+<div class="menu-container menu-dropdown menu-search">
+<div id="menu-toggle-primary" class="menu-toggle">
+<a class="menu-toggle-open" href="#menu-primary"><span class="menu-toggle-text screen-reader-text">Primary</span></a>
+<a class="menu-toggle-close" href="#menu-toggle-primary"><span class="menu-toggle-text screen-reader-text">Primary</span></a>
+</div>
+<div class="wrap"><ul id="menu-primary-items" class="menu-items"><li id="menu-item-7917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7917"><a href="https://www.techiedelight.com/data-structures-and-algorithms-problems/">All Problems</a></li>
+<li id="menu-item-53465" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53465"><a href="https://techiedelight.com/practice/">Practice</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-36"><a href="https://www.techiedelight.com/Category/Array/">Array</a></li>
+<li id="menu-item-9022" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9022"><a href="https://www.techiedelight.com/Category/Trees/Binary-Tree/">Binary Tree</a></li>
+<li id="menu-item-9021" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9021"><a href="https://www.techiedelight.com/Category/Trees/BST/">Binary Search Tree</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-35"><a href="https://www.techiedelight.com/Category/Linked-List/">Linked List</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-53"><a href="https://www.techiedelight.com/Category/Dynamic-Programming/">Dynamic Programming</a></li>
+<li id="menu-item-46" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46"><a href="https://www.techiedelight.com/Category/Backtracking/">Backtracking</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-48"><a href="https://www.techiedelight.com/Category/Matrix/">Matrix</a></li>
+<li id="menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44"><a href="https://www.techiedelight.com/Category/Graphs/">Graph</a></li>
+<li id="menu-item-49" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-49"><a href="https://www.techiedelight.com/Category/Divide-Conquer/">Divide and Conquer</a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-50"><a href="https://www.techiedelight.com/Category/Heap/">Heap</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-52"><a href="https://www.techiedelight.com/Category/String/">String</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47"><a href="https://www.techiedelight.com/Category/Sorting/">Sorting</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41"><a href="https://www.techiedelight.com/Category/Stack/">Stack</a></li>
+<li id="menu-item-9279" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9279"><a href="https://www.techiedelight.com/Category/Queue/">Queue</a></li>
+<li id="menu-item-21157" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21157"><a href="https://www.techiedelight.com/Category/Trees/Trie/">Trie</a></li>
+<li id="menu-item-9283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9283"><a href="https://www.techiedelight.com/Category/Binary/">Bit Manipulation</a></li>
+<li id="menu-item-18671" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18671"><a href="https://www.techiedelight.com/Category/Programming-Puzzles/">Programming Puzzles</a></li>
+<li id="menu-item-18696" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18696"><a href="https://techiedelight.com/compiler/">IDE</a></li>
+</ul></div>
+
+</div>
+</nav>
+</div>
+<div id="container">
+<div class="skip-link">
+<a class="screen-reader-text" href="#content">Skip to content</a>
+</div>
+<div class="wrap">
+<div id="main">
+<div id="pre-content" class="wrap">
+<main id="content" class="content" role="main">
+<div class="wrap">
+<article id="post-23812" class="post-23812 post type-post status-publish format-standard hentry category-Git entry has-excerpt">
+<div class="wrap">
+<header class="entry-header">
+<h1 class="entry-title">Create a branch from a previous commit in Git</h1>
+</header>
+<div class="entry-content">
+<div class="post-content">
+<p class="problem">This post will discuss how to create a branch from some previous commit in Git.</p>
+<h3>1. git-branch</h3>
+<p>To create a branch from some previous commit, you can use the <span data-no-translation class="consolas"><a href="https://git-scm.com/docs/git-branch" rel="nofollow noopener noreferrer" target="_blank">git-branch</a></span> command.</p>
+<div data-no-translation class="io w600">
+git branch &lt;branchname&gt; [&lt;commit-id&gt;]
+</div>
+<p>This creates a new branch, <code data-no-translation>branchname</code> which whose head points to specified <code data-no-translation>commit-id</code>. For example, the following creates a develop branch from the specified commit hash.</p>
+<div data-no-translation class="io w600">
+git branch develop 04c900c9d9c325720ed5c807b46272a500c22a97
+</div>
+<p>You can refer to a commit using its full SHA-1 hash or by providing the partial hash. The partial hash should contain the first few characters of the 40-character SHA-1 hash, and be at least four characters long and unambiguous.</p>
+<div data-no-translation class="io w600">
+git branch develop 04c900c
+</div>
+<p>You can also refer to a commit is via its ancestry:</p>
+<div data-no-translation class="io w600">
+git branch develop HEAD~4
+</div>
+<p>The <a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection" rel="nofollow noopener noreferrer" target="_blank">GIT manual</a> specifies all ways to refer to any commit.</p>
+<p>&nbsp;<br />
+After creating the new branch, you will need to push the new branch to the remote repository. This can be done using <code data-no-translation>git push</code>:</p>
+<div data-no-translation class="io w600">
+# Create a new branch from the previous commit&#8217;s hash<br />
+git branch develop 04c900c<br />
+&nbsp;<br />
+# Push the new branch to the remote repository<br />
+git push &#8211;set-upstream origin develop<br />
+&nbsp;<br />
+# Check out the new branch<br />
+git checkout develop
+</div>
+<p>Here&#8217;s a live example demonstrating this:</p>
+<p><img src="https://www.techiedelight.com/wp-content/uploads/create-branch-with-git-branch.png" alt="create a new branch with git branch" width="540" class="alignnone size-full wp-image-23827" /></p>
+<h3>2. git-checkout</h3>
+<p>Here, the idea is to check out the particular commit and then create a branch from that commit:</p>
+<div data-no-translation class="io w600">
+# Check out specified commit<br />
+git checkout &lt;commit-id&gt;<br />
+&nbsp;<br />
+# Create a new branch<br />
+git checkout -b &lt;branchname&gt;
+</div>
+<p>We can simplify this to a single step:</p>
+<div data-no-translation class="io w600">
+# Create a new branch from the specified commit<br />
+git checkout -b &lt;branchname&gt; [&lt;commit-id&gt;]
+</div>
+<p>After creating the new branch, you can push it to the remote repository.</p>
+<div data-no-translation class="io w600">
+# Push the new branch to the remote repository<br />
+git push &#8211;set-upstream origin &lt;branchname&gt;
+</div>
+<p><img src="https://www.techiedelight.com/wp-content/uploads/create-branch-with-git-checkout.png" alt="create a new branch with git checkout" width="610" class="alignnone size-full wp-image-23828" /></p>
+<h3>3. git-reset</h3>
+<p>Alternatively, you can create a new branch from the current branch&#8217;s head and hard reset it to a specific commit. This can be easily done by git reset.</p>
+<div data-no-translation class="io w600">
+# Create a new branch from HEAD<br />
+git checkout -b &lt;branchname&gt;<br />
+&nbsp;<br />
+# Remove the commits made after &lt;commit-id&gt;<br />
+git reset &#8211;hard &lt;commit-id&gt;<br />
+&nbsp;<br />
+# Push the new branch to the remote repository<br />
+git push &#8211;set-upstream origin &lt;branchname&gt;
+</div>
+<p>Here&#8217;s a live example demonstrating this:</p>
+<p><img src="https://www.techiedelight.com/wp-content/uploads/create-branch-with-git-reset.png" alt="create a new branch with git reset" width="550" class="alignnone size-full wp-image-23829" /></p>
+<h3>4. GitHub</h3>
+<p>Finally, GitHub provides a quick way to create a new branch from a specific commit. Following are the steps:</p>
+<p>1. Go to your repository in GitHub and find the specific commit under the &#8216;x commits&#8217; tab.</p>
+<p>2. Click on the &#8216;Browse the repository at this point in the history&#8217; link for that specific commit.</p>
+<p><img src="https://www.techiedelight.com/wp-content/uploads/Github-Select-commit-id.png" alt="Select commit id in Github" width="1245" height="643" class="alignnone size-full wp-image-23838" srcset="https://www.techiedelight.com/wp-content/uploads/Github-Select-commit-id.png 1245w, https://www.techiedelight.com/wp-content/uploads/Github-Select-commit-id-768x397.png 768w" sizes="(max-width: 1245px) 100vw, 1245px" /></p>
+<p>3. Click on the &#8216;Tree: <em>sha-1 hash</em>&#8216; drop-down, enter your branch name in the &#8216;Find or Create Branch&#8217; input box and click on the create branch option.</p>
+<p><img src="https://www.techiedelight.com/wp-content/uploads/Github-create-branch-from-commit-id.png" alt="create branch from commit id in Github" width="1257" height="521" class="alignnone size-full wp-image-23839" srcset="https://www.techiedelight.com/wp-content/uploads/Github-create-branch-from-commit-id.png 1257w, https://www.techiedelight.com/wp-content/uploads/Github-create-branch-from-commit-id-768x318.png 768w" sizes="(max-width: 1257px) 100vw, 1257px" /></p>
+<p>4. That&#8217;s it. Your branch is created. Do a git fetch to pull it in your local.</p>
+<p class="end">That&#8217;s all about creating a branch from a previous commit in Git.</p>
+</div>
+<div class="rmp-widgets-container rmp-wp-plugin rmp-main-container js-rmp-widgets-container js-rmp-widgets-container--23812" data-post-id="23812">  <div class="rmp-rating-widget js-rmp-rating-widget"> <p class="rmp-heading rmp-heading--title"> Rate this post </p> <div class="rmp-rating-widget__icons"> <ul class="rmp-rating-widget__icons-list js-rmp-rating-icons-list"> <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Terrible" data-value="1"> <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i> </li> <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Poor" data-value="2"> <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i> </li> <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Fair" data-value="3"> <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i> </li> <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Good" data-value="4"> <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i> </li> <li class="rmp-rating-widget__icons-list__icon js-rmp-rating-item" data-descriptive-rating="Excellent" data-value="5"> <i class="js-rmp-rating-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i> </li> </ul> </div> <p class="rmp-rating-widget__hover-text js-rmp-hover-text"></p> <button class="rmp-rating-widget__submit-btn rmp-btn js-submit-rating-btn"> Submit Rating </button> <p class="rmp-rating-widget__results js-rmp-results "> Average rating <span class="rmp-rating-widget__results__rating js-rmp-avg-rating">5</span>/5. Vote count: <span class="rmp-rating-widget__results__votes js-rmp-vote-count">27</span> </p> <p class="rmp-rating-widget__not-rated js-rmp-not-rated rmp-rating-widget__not-rated--hidden"> No votes so far! Be the first to rate this post. </p> <p class="rmp-rating-widget__msg js-rmp-msg"></p> </div>   <div class="rmp-feedback-widget js-rmp-feedback-widget"> <p class="rmp-heading rmp-heading--title"> We are sorry that this post was not useful for you! </p> <p class="rmp-heading rmp-heading--subtitle"> </p> <div class="rmp-feedback-widget__container"> <p class="rmp-feedback-widget__text"> Tell us how we can improve this post? </p> <textarea class="rmp-feedback-widget__input js-rmp-feedback-input" rows="5" id="feedback-text"></textarea> <button type="button" class="rmp-feedback-widget__btn rmp-btn rmp-btn--large js-rmp-feedback-button"> Submit Feedback </button> <div class="rmp-feedback-widget__loader js-rmp-feedback-loader"> <div></div><div></div><div></div> </div> <p class="rmp-feedback-widget__msg js-rmp-feedback-msg"></p> </div> </div> </div>
+<div class="techi-after-content" id="techi-1405100544"><br>
+<div style="min-height:90px">
+<div id=bsa-zone_1572273220499-9_123456></div>
+</div>
+<br><br>
+<div class="post-content-text" id="post-content-text">
+<strong>Thanks for reading.</strong>
+<br><br>
+Please use our <a href="https://techiedelight.com/compiler/" target="_blank" rel="noopener noreferrer">online compiler</a> to post code in comments using C, C++, Java, Python, JavaScript, C#, PHP, and many more popular programming languages.
+<br><br>
+<strong>Like us? Refer us to your friends and help us grow. Happy coding</strong> 🙂
+<br><br><br>
+<div style="min-height:90px">
+<div id="bsa-zone_1571847890312-0_123456"></div>
+</div>
+<br></div></div> </div>
+<footer class="entry-footer">
+</footer>
+</div>
+</article>
+<div class="wpdiscuz_top_clearing"></div>
+<div id='comments' class='comments-area'><div id='respond' style='width: 0;height: 0;clear: both;margin: 0;padding: 0;'></div> <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-1 wpd-comments-open">
+<div class="wc_social_plugin_wrapper">
+</div>
+<div class="wpd-form-wrap">
+<div class="wpd-form-head">
+<div class="wpd-sbs-toggle">
+<i class="far fa-envelope"></i> <span class="wpd-sbs-title">Subscribe</span> <i class="fas fa-caret-down"></i>
+</div>
+<div class="wpd-auth">
+<div class="wpd-login">
+</div>
+</div>
+</div>
+<div class="wpdiscuz-subscribe-bar wpdiscuz-hidden">
+<form action="https://www.techiedelight.com/wp-admin/admin-ajax.php?action=wpdAddSubscription" method="post" id="wpdiscuz-subscribe-form">
+<div class="wpdiscuz-subscribe-form-intro">Notify of </div>
+<div class="wpdiscuz-subscribe-form-option" style="width:40%;">
+<select class="wpdiscuz_select" name="wpdiscuzSubscriptionType">
+<option value="post">new follow-up comments</option>
+<option value="all_comment">new replies to my comments</option>
+</select>
+</div>
+<div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+<input class="email" type="email" name="wpdiscuzSubscriptionEmail" required="required" value="" placeholder="Email" />
+</div>
+<div class="wpdiscuz-subscribe-form-button">
+<input id="wpdiscuz_subscription_button" class="wpd-prim-button" type="submit" value="›" name="wpdiscuz_subscription_button" />
+</div>
+<input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="f5de364e19" /><input type="hidden" name="_wp_http_referer" value="/create-branch-from-previous-commit-git/" /> </form>
+</div>
+<div class="wpd-form wpd-form-wrapper wpd-main-form-wrapper" id='wpd-main-form-wrapper-0_0'>
+<form class="wpd_comm_form wpd_main_comm_form" method="post" enctype="multipart/form-data">
+<div class="wpd-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap wpd-txt">
+<div class="wpd-avatar">
+<img alt='guest' src='https://secure.gravatar.com/avatar/?s=56&#038;d=wavatar&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=112&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-56 photo avatar-default' height='56' width='56' /> </div>
+<div class="wpd-textarea-wrap">
+<textarea id="wc-textarea-0_0" placeholder="We would love your thoughts, please comment." aria-label="We would love your thoughts, please comment." required name="wc_comment" class="wc_comment wpd-field"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div class="wpd-form-foot" style='display:none;'>
+<div class="wpdiscuz-textarea-foot">
+<div class="wpdiscuz-button-actions"></div>
+</div>
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input id="wc_name-0_0" value="" required='required' class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern='.{3,50}' title="">
+<label for="wc_name-0_0" class="wpdlb">Name*</label>
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input id="wc_email-0_0" value="" required='required' class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*" />
+<label for="wc_email-0_0" class="wpdlb">Email*</label>
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wc-field-submit">
+<input id="wpd-field-submit-0_0" class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit" name="submit" value="Post Comment" />
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<input type="hidden" class="wpdiscuz_unique_id" value="0_0" name="wpdiscuz_unique_id">
+</form>
+</div>
+<div id="wpdiscuz_hidden_secondary_form" style="display: none;">
+<div class="wpd-form wpd-form-wrapper wpd-secondary-form-wrapper" id='wpd-secondary-form-wrapper-wpdiscuzuniqueid' style='display: none;'>
+<div class="wpd-secondary-forms-social-content"></div><div class="clearfix"></div>
+<form class="wpd_comm_form wpd-secondary-form-wrapper" method="post" enctype="multipart/form-data">
+<div class="wpd-field-comment">
+<div class="wpdiscuz-item wc-field-textarea">
+<div class="wpdiscuz-textarea-wrap wpd-txt">
+<div class="wpd-avatar">
+<img alt='guest' src='https://secure.gravatar.com/avatar/?s=56&#038;d=wavatar&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=112&#038;d=wavatar&#038;r=g 2x' class='avatar avatar-56 photo avatar-default' height='56' width='56' /> </div>
+ <div class="wpd-textarea-wrap">
+<textarea id="wc-textarea-wpdiscuzuniqueid" placeholder="We would love your thoughts, please comment." aria-label="We would love your thoughts, please comment." required name="wc_comment" class="wc_comment wpd-field"></textarea>
+</div>
+</div>
+</div>
+</div>
+<div class="wpd-form-foot" style='display:none;'>
+<div class="wpdiscuz-textarea-foot">
+<div class="wpdiscuz-button-actions"></div>
+</div>
+<div class="wpd-form-row">
+<div class="wpd-form-col-left">
+<div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-user"></i></div>
+<input id="wc_name-wpdiscuzuniqueid" value="" required='required' class="wc_name wpd-field" type="text" name="wc_name" placeholder="Name*" maxlength="50" pattern='.{3,50}' title="">
+<label for="wc_name-wpdiscuzuniqueid" class="wpdlb">Name*</label>
+</div>
+<div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+<div class="wpd-field-icon"><i class="fas fa-at"></i></div>
+<input id="wc_email-wpdiscuzuniqueid" value="" required='required' class="wc_email wpd-field" type="email" name="wc_email" placeholder="Email*" />
+<label for="wc_email-wpdiscuzuniqueid" class="wpdlb">Email*</label>
+</div>
+</div>
+<div class="wpd-form-col-right">
+<div class="wc-field-submit">
+<input id="wpd-field-submit-wpdiscuzuniqueid" class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit" name="submit" value="Post Comment" />
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid" name="wpdiscuz_unique_id">
+</form>
+</div>
+</div>
+</div>
+<div id="wpd-threads" class="wpd-thread-wrapper">
+<div class="wpd-thread-head">
+<div class="wpd-thread-info ">
+<span class='wpdtc' title='1'>1</span> Comment </div>
+<div class="wpd-space"></div>
+<div class="wpd-thread-filter">
+<div class="wpd-filter wpdf-sorting">
+<span class="wpdiscuz-sort-button wpdiscuz-vote-sort-up wpdiscuz-sort-button-active" data-sorting="by_vote">Most Voted</span>
+<i class="fas fa-sort-down"></i>
+<div class="wpdiscuz-sort-buttons">
+<span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc" data-sorting="newest">Newest</span>
+<span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc" data-sorting="oldest">Oldest</span>
+</div>
+</div>
+</div>
+</div>
+<div class="wpd-comment-info-bar">
+<div class="wpd-current-view"><i class="fas fa-quote-left"></i> Inline Feedbacks</div>
+<div class="wpd-filter-view-all">View all comments</div>
+</div>
+<div class="wpd-thread-list">
+<div class="wpd-load-more-submit-wrap">
+<button name="submit" class="wpd-load-comments wpd-prim-button">
+View Comments </button>
+</div>
+<div class="wpdiscuz-comment-pagination" style='display:none;'>
+<div class="wpd-load-more-submit-wrap">
+<button name="submit" data-lastparentid="0" class="wpd-load-more-submit wpd-loaded wpd-prim-button">
+Load More Comments </button>
+</div>
+<input id="wpdiscuzHasMoreComments" type="hidden" value="0" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wpdiscuz-loading-bar" class="wpdiscuz-loading-bar-unauth"></div>
+<div id="wpdiscuz-comment-message" class="wpdiscuz-comment-message-unauth"></div>
+</div>
+</main>
+<div id="sidebar-primary">
+<aside class="sidebar">
+<section id="custom_html-4" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div style="min-height:250px;max-width:300px;">
+<div id=bsa-zone_1571848001298-1_123456></div>
+</div>
+<br /><hr />
+<div style="min-height:250px;max-width:300px;">
+<div id=bsa-zone_1571848083533-3_123456></div>
+</div></div></section><section id="tag_cloud-7" class="widget widget_tag_cloud"><span class="widget-title">Browse</span><div class="tagcloud"><a href="https://www.techiedelight.com/Tags/Algorithm/" class="tag-cloud-link tag-link-19 tag-link-position-1" style="font-size: 18.049079754601pt;" aria-label="Algorithm (130 items)">Algorithm</a>
+<a href="https://www.techiedelight.com/Tags/Amazon/" class="tag-cloud-link tag-link-20 tag-link-position-2" style="font-size: 17.791411042945pt;" aria-label="Amazon (121 items)">Amazon</a>
+<a href="https://www.techiedelight.com/Tags/Beginner/" class="tag-cloud-link tag-link-244 tag-link-position-3" style="font-size: 13.668711656442pt;" aria-label="Beginner (40 items)">Beginner</a>
+<a href="https://www.techiedelight.com/Tags/Binary-Search/" class="tag-cloud-link tag-link-79 tag-link-position-4" style="font-size: 11.521472392638pt;" aria-label="Binary Search (22 items)">Binary Search</a>
+<a href="https://www.techiedelight.com/Tags/Bit-Hacks/" class="tag-cloud-link tag-link-23 tag-link-position-5" style="font-size: 12.981595092025pt;" aria-label="Bit Hacks (33 items)">Bit Hacks</a>
+<a href="https://www.techiedelight.com/Tags/Tabulation/" class="tag-cloud-link tag-link-55 tag-link-position-6" style="font-size: 15.98773006135pt;" aria-label="Bottom-up (75 items)">Bottom-up</a>
+<a href="https://www.techiedelight.com/Tags/BFS/" class="tag-cloud-link tag-link-21 tag-link-position-7" style="font-size: 14.184049079755pt;" aria-label="Breadth-first search (46 items)">Breadth-first search</a>
+<a href="https://www.techiedelight.com/Tags/DFS/" class="tag-cloud-link tag-link-29 tag-link-position-8" style="font-size: 18.049079754601pt;" aria-label="Depth-first search (131 items)">Depth-first search</a>
+<a href="https://www.techiedelight.com/Tags/easy/" class="tag-cloud-link tag-link-241 tag-link-position-9" style="font-size: 19.251533742331pt;" aria-label="Easy (183 items)">Easy</a>
+<a href="https://www.techiedelight.com/Tags/FIFO/" class="tag-cloud-link tag-link-31 tag-link-position-10" style="font-size: 14.871165644172pt;" aria-label="FIFO (55 items)">FIFO</a>
+<a href="https://www.techiedelight.com/Tags/Greedy/" class="tag-cloud-link tag-link-35 tag-link-position-11" style="font-size: 8pt;" aria-label="Greedy (8 items)">Greedy</a>
+<a href="https://www.techiedelight.com/Tags/hard/" class="tag-cloud-link tag-link-243 tag-link-position-12" style="font-size: 18.736196319018pt;" aria-label="Hard (158 items)">Hard</a>
+<a href="https://www.techiedelight.com/Tags/Hashing/" class="tag-cloud-link tag-link-36 tag-link-position-13" style="font-size: 17.447852760736pt;" aria-label="Hashing (112 items)">Hashing</a>
+<a href="https://www.techiedelight.com/Tags/LIFO/" class="tag-cloud-link tag-link-42 tag-link-position-14" style="font-size: 14.355828220859pt;" aria-label="LIFO (48 items)">LIFO</a>
+<a href="https://www.techiedelight.com/Tags/Maze/" class="tag-cloud-link tag-link-43 tag-link-position-15" style="font-size: 8pt;" aria-label="Maze (8 items)">Maze</a>
+<a href="https://www.techiedelight.com/Tags/medium/" class="tag-cloud-link tag-link-242 tag-link-position-16" style="font-size: 21.742331288344pt;" aria-label="Medium (354 items)">Medium</a>
+<a href="https://www.techiedelight.com/Tags/Microsoft/" class="tag-cloud-link tag-link-45 tag-link-position-17" style="font-size: 14.441717791411pt;" aria-label="Microsoft (49 items)">Microsoft</a>
+<a href="https://www.techiedelight.com/Tags/Must-Know/" class="tag-cloud-link tag-link-47 tag-link-position-18" style="font-size: 14.355828220859pt;" aria-label="Must Know (48 items)">Must Know</a>
+<a href="https://www.techiedelight.com/Tags/Priority-Queue/" class="tag-cloud-link tag-link-66 tag-link-position-19" style="font-size: 11.349693251534pt;" aria-label="Priority Queue (21 items)">Priority Queue</a>
+<a href="https://www.techiedelight.com/Tags/Recursion/" class="tag-cloud-link tag-link-51 tag-link-position-20" style="font-size: 22pt;" aria-label="Recursive (380 items)">Recursive</a>
+<a href="https://www.techiedelight.com/Tags/Sliding-Window/" class="tag-cloud-link tag-link-52 tag-link-position-21" style="font-size: 9.3742331288344pt;" aria-label="Sliding Window (12 items)">Sliding Window</a>
+<a href="https://www.techiedelight.com/Tags/Memoization/" class="tag-cloud-link tag-link-44 tag-link-position-22" style="font-size: 15.472392638037pt;" aria-label="Top-down (65 items)">Top-down</a>
+<a href="https://www.techiedelight.com/Tags/Trie/" class="tag-cloud-link tag-link-57 tag-link-position-23" style="font-size: 9.9754601226994pt;" aria-label="Trie (14 items)">Trie</a></div>
+</section><section id="custom_html-9" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><hr />
+<div style="min-height:250px;max-width:300px;">
+<div id=bsa-zone_1574193460873-5_123456></div>
+</div></div></section><section id="blog_subscription-7" class="widget widget_blog_subscription jetpack_subscription_widget"><span class="widget-title">Subscribe to new posts</span>
+<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-7">
+<div id="subscribe-text"><p>Enter your email address to subscribe to new posts.</p>
+</div>
+<p id="subscribe-email">
+<label id="jetpack-subscribe-label" class="screen-reader-text" for="subscribe-field-blog_subscription-7">
+Email Address </label>
+<input type="email" name="email" required="required" value="" id="subscribe-field-blog_subscription-7" placeholder="Email Address" />
+</p>
+<p id="subscribe-submit">
+<input type="hidden" name="action" value="subscribe" />
+<input type="hidden" name="source" value="https://www.techiedelight.com/create-branch-from-previous-commit-git/" />
+<input type="hidden" name="sub-type" value="widget" />
+<input type="hidden" name="redirect_fragment" value="subscribe-blog-blog_subscription-7" />
+<button type="submit" class="wp-block-button__link" name="jetpack_subscriptions_widget">
+Subscribe </button>
+</p>
+</form>
+</section><section id="custom_html-16" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div style="min-height: 600px;">
+<div id=bsa-zone_1574193334127-5_123456></div>
+</div></div></section><section id="eu_cookie_law_widget-5" class="widget widget_eu_cookie_law_widget">
+<div class="hide-on-button" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
+<form method="post">
+<input type="submit" value="Accept and Close" class="accept" />
+</form>
+This website uses cookies. By using this site you agree to the use of cookies, our policies, copyright terms and other conditions. Read our
+<a href="https://www.techiedelight.com/privacy-policy/" rel="">
+Privacy Policy.	</a>
+</div>
+</section><section id="custom_html-18" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script>
+window.addEventListener('load', function() {
+	(function(){
+		if(typeof _bsa !== 'undefined' && _bsa) {
+			_bsa.init('flexbar', 'CE7DPK3U', 'placement:wwwtechiedelightcom');
+		}
+	})();
+});
+</script></div></section>
+</aside>
+</div>
+<gcse:search gname='gsc-search-query'></gcse:search>
+</div>
+</div>
+</div>
+<script>
+var isMobile = /iPhone|iPad|iPod|Mobile|Android|Silk|Kindle|BlackBerry|Opera Mini|Opera Mobi/i.test(navigator.userAgent);
+if (isMobile) {
+	document.querySelectorAll('.widget_text').forEach(function(e) {
+		e.remove();
+	});
+	document.getElementsByClassName("widget_tag_cloud")[0].remove();
+	document.getElementsByClassName("jetpack_subscription_widget")[0].remove();
+	document.getElementById("pre-content").classList.remove('wrap');
+	var e = document.getElementById("post-content-text");
+	if (e) e.remove();
+}
+</script>
+</div>
+<footer id="footer">
+<span class="footer-item">
+<a class="site-link" rel="home" href="https://www.techiedelight.com/">Techie Delight</a> &#169; 2022 All Rights Reserved.	</span>
+<label>|</label>
+<span class="footer-item">
+<a href="https://www.techiedelight.com/privacy-policy/">Privacy Policy</a>
+</span>
+<label>|</label>
+<span class="footer-item">
+<a href="https://www.techiedelight.com/terms-of-service/">Terms of Service</a>
+</span>
+<label>|</label>
+<span class="footer-item">
+<a href="https://www.techiedelight.com/contact/">Send feedback</a>
+</span>
+</footer>
+<script>
+(function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
+;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
+;c.parentNode.insertBefore(a,c)
+})(window,document,'galite','script','https://cdnjs.cloudflare.com/ajax/libs/ga-lite/2.1.0/ga-lite.min.js');
+
+galite('create', 'UA-88359968-1', 'auto');
+galite('send', 'pageview');
+</script>
+<script>
+Array.from(document.querySelectorAll('a[href*="https://www.techiedelight.com"][target="_blank"]'))
+	.forEach(link => link.removeAttribute('target'));
+</script>
+<a rel="nofollow" style="display:none;" href="https://www.techiedelight.com/?blackhole=545156dbaa" title="Blackhole for Bad Bots">Do NOT follow this link or you will be banned from the site!</a>
+<div id='wpd-editor-source-code-wrapper-bg'></div><div id='wpd-editor-source-code-wrapper'><textarea id='wpd-editor-source-code'></textarea><button id='wpd-insert-source-code'>Insert</button><input type='hidden' id='wpd-editor-uid' /></div><link rel='stylesheet' id='wpdiscuz-combo-fa-minified-css' href='https://www.techiedelight.com/wp-content/themes/nevertheless/assets/css/wpdiscuz-combo.css?ver=1.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js' id='jquery-js'></script>
+<script type='text/javascript' id='wpdiscuz-combo-js-js-extra'>
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_comment_edit_not_possible":"Sorry, this comment is no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_spoiler_title":"Spoiler Title","wc_cannot_rate_again":"You cannot rate again","wc_not_allowed_to_rate":"You're not allowed to rate here","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":"","commentListLoadType":"2","commentListUpdateType":"0","commentListUpdateTimer":"600","liveUpdateGuests":"0","wordpressThreadCommentsDepth":"4","wordpressIsPaginate":"","commentTextMaxLength":null,"commentTextMinLength":"1","storeCommenterData":"100000","socialLoginAgreementCheckbox":"0","enableFbLogin":"0","enableFbShare":"0","facebookAppID":"","facebookUseOAuth2":"0","enableGoogleLogin":"0","googleClientID":"","googleClientSecret":"","cookiehash":"2c7421f192d21f1a9de0a89677700fd4","isLoadOnlyParentComments":"0","scrollToComment":"1","commentFormView":"collapsed","enableDropAnimation":"1","isNativeAjaxEnabled":"1","enableBubble":"0","bubbleLiveUpdate":"0","bubbleHintTimeout":"45","bubbleHintHideTimeout":"10","cookieHideBubbleHint":"wpdiscuz_hide_bubble_hint","bubbleShowNewCommentMessage":"0","bubbleLocation":"content_left","firstLoadWithAjax":"2","wc_copied_to_clipboard":"Copied to clipboard!","inlineFeedbackAttractionType":"disable","loadRichEditor":"0","wpDiscuzReCaptchaSK":"","wpDiscuzReCaptchaTheme":"light","wpDiscuzReCaptchaVersion":"2.0","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","wpDiscuzIsShowOnSubscribeForm":"0","wmuEnabled":"0","wmuInput":"wmu_files","wmuMaxFileCount":"1","wmuMaxFileSize":"2097152","wmuPostMaxSize":"67108864","wmuIsLightbox":"0","wmuMimeTypes":[],"wmuPhraseConfirmDelete":"Are you sure you want to delete this attachment?","wmuPhraseNotAllowedFile":"Not allowed file type","wmuPhraseMaxFileCount":"Maximum number of uploaded files is 1","wmuPhraseMaxFileSize":"Maximum upload file size is 2MB","wmuPhrasePostMaxSize":"Maximum post size is 64MB","msgEmptyFile":"File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.","msgPostIdNotExists":"Post ID not exists","msgUploadingNotAllowed":"Sorry, uploading not allowed for this post","msgPermissionDenied":"You do not have sufficient permissions to perform this action","wmuSecurity":"60eb74e033","wmuKeyImages":"images","wmuSingleImageWidth":"auto","wmuSingleImageHeight":"200","version":"10.0.0","wc_post_id":"23812","loadLastCommentId":"0","isCookiesEnabled":"1","dataFilterCallbacks":[],"is_email_field_required":"1","url":"https:\/\/www.techiedelight.com\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/www.techiedelight.com\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","bubbleUpdateUrl":"https:\/\/www.techiedelight.com\/wp-json\/wpdiscuz\/v1\/update","restNonce":"3530071f4a"};
+var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?","additionalTab":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' async src='https://www.techiedelight.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo-no_quill.min.js' id='wpdiscuz-combo-js-js'></script>
+<script type='text/javascript' src='https://www.techiedelight.com/wp-content/themes/nevertheless/assets/js/all.min.js?ver=1.2' id='all-minified-js'></script>
+<script src='https://stats.wp.com/e-202229.js' defer></script>
+<script>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:10.8',blog:'120308644',post:'23812',tz:'5.5',srv:'www.techiedelight.com'} ]);
+	_stq.push([ 'clickTrackerInit', '120308644', '23812' ]);
+</script>
+<script>
+if (window.jQuery) {
+	if (isMobile) {
+		$("<script data-ad-client='ca-pub-8369054522516884' async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>").appendTo('body');
+	}
+
+	jQuery(document).ready(function(e){isMobile?e("body").removeClass("wp-is-not-mobile").addClass("wp-is-mobile"):e("body").removeClass("wp-is-mobile").addClass("wp-is-not-mobile"),e(".menu-dropdown").find("a").on("focus blur",function(){e(this).parents().toggleClass("focus")});var n=navigator.userAgent.toLowerCase().indexOf("webkit")>-1,t=navigator.userAgent.toLowerCase().indexOf("opera")>-1,i=navigator.userAgent.toLowerCase().indexOf("msie")>-1;function a(){e(".menu-container .menu-item-has-children").each(function(){e(this).children("ul").length>0&&("block"!=e("#menu-toggle-primary").css("display")?e(this).children("a").click(function(n){n.preventDefault(),e(this).parent("li").siblings("li").removeClass("menu-item-open-children"),e(this).parent("li").toggleClass("menu-item-open-children"),e(this).parent("li").children(".sub-menu").children("li").hasClass("menu-item-parent-link")||"#"!=e(this).attr("href")&&e(this).parent("li").children(".sub-menu").prepend('<li class="menu-item menu-item-parent-link">'+e(this).parent("li").html()+"</li>"),e(".menu-item-parent-link").children(".sub-menu").remove()}):(e(this).children("a").unbind("click"),e(".menu-item-parent-link").remove(),e(".menu-item-open-children").removeClass("menu-item-open-children")))})}(n||t||i)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var e=document.getElementById(location.hash.substring(1));e&&(/^(?:a|select|input|button|textarea)$/i.test(e.tagName)||(e.tabIndex=-1),e.focus())},!1),e(".search-toggle").click(function(n){n.preventDefault(),e(this).parents(".menu-search").toggleClass("search-toggle-active"),e(this).siblings(".search-field").focus()}),e("body").hasClass("search")&&e(".search-toggle").parents(".menu-search").addClass("search-toggle-active"),e("body").hasClass("wp-is-mobile")&&(e("body").addClass("mobile-menu-active"),e("body").hasClass("mobile-menu-active")&&a()),e(window).resize(function(){e("body").hasClass("mobile-menu-active")&&a()}),e(".menu-toggle a").click(function(n){n.preventDefault(),e(this).parents(".menu-container").toggleClass("menu-toggle-active")})});
+}
+</script>
+<script>
+function handleEvents(eventCategory, eventAction, eventLabel) { try { if (location.host && 'galite' in window) { galite(function(tracker) { if (eventLabel) { tracker.send('event', eventCategory, eventAction, eventLabel); } else { tracker.send('event', eventCategory, eventAction); } }); } } catch (e) { console.log(e); }}$(document).ready(function() { var tabs_li = $('.responsive-tabs__list__item'); function changeLang() { var lang = localStorage.getItem('selectedLang'); for (var i = 0; i < tabs_li.length; i++) { if (lang && tabs_li[i].innerHTML == lang) { tabs_li[i].click(); } } } var userid = 'Existing User'; if (!localStorage.getItem('visited')) { userid = 'New User'; } var selectedLang = false; tabs_li.click(function() { var lang = localStorage.getItem('selectedLang'); localStorage.setItem('selectedLang', $(this).html()); changeLang(); if (!selectedLang && !lang) { handleEvents(userid, $(this).html()); selectedLang = true; } setTimeout(function () { selectedLang = false; }, 200); }); changeLang(); $('.darkgreen').click(function() { handleEvents(userid, 'Download Code'); }); $('.wpd-load-comments').click(function() { handleEvents(userid, 'Load Comments'); }); $('input[value="Accept and Close"]').click(function() { handleEvents(userid, 'Accept Cookies'); }); var subscribed = false; $('button[name="jetpack_subscriptions_widget"]').click(function() { if (!subscribed && $('#subscribe-email > input[type="email"]').val()) { subscribed = true; handleEvents(userid, 'Subscribed', $('#subscribe-email > input[type="email"]').val()); } }); $('a[href*="data-structures-and-algorithms-problems"]').click(function() { handleEvents(userid, 'Data Structures and Algorithms Problems'); }); $('a[rel="home"]').click(function() { handleEvents(userid, 'Home Page'); }); $('a[href="https://techiedelight.com/compiler/"]').click(function() { handleEvents(userid, 'Online Compiler'); }); $('a[href="https://techiedelight.com/practice/"]').click(function() { handleEvents(userid, 'Practice'); }); $('a[href="https://techiedelight.com/tools/"]').click(function() { handleEvents(userid, 'Tools'); }); var scrolled = false; $(window).scroll(function() { if (!scrolled) { var elem = document.getElementsByClassName('rmp-widgets-container')[0]; if (elem) { var rect = elem.getBoundingClientRect(); var isVisible = (rect.top >= 0) && (rect.bottom <= window.innerHeight); if (isVisible) { scrolled = true; handleEvents(userid, 'End of Post', document.title); } } } }); galite(function(tracker) { tracker.send('timing', 'Entry', 'Entry - ' + userid, Math.round(performance.now())); }); window.addEventListener('beforeunload', function() { galite(function(tracker) { tracker.send('timing', 'Exit', 'Exit - ' + userid, Math.round(performance.now())); }); }); localStorage.setItem('visited', true);});
+</script>
+<script async src='https://cse.google.com/cse.js?cx=002657654577601496105:j-0oatr-bee' id='cse-js'></script>
+<script>
+	window.addEventListener('load', function() {
+		document.getElementById('gsc-i-id1').setAttribute('placeholder', 'Search Techie Delight...');
+		
+		(function(){
+			if(typeof _bsa !== 'undefined' && _bsa) {
+				_bsa.init('fancybar', 'CE7DPK3N', 'placement:wwwtechiedelightcom');
+			}
+		})();
+	});
+
+	document.getElementById("search-submit")
+		.addEventListener("click", function(event) {
+			var value = document.getElementById('search-menu').value;
+			google.search.cse.element.getElement('gsc-search-query').execute(value);
+			handleEvents('Search', 'Google Custom Search', value);
+			event.preventDefault();
+		});
+</script>
+</body>
+</html>
+
